@@ -12,6 +12,11 @@ public class SmartPhone extends MobilePhone {
     public String findPosiition() {
         return "00.00N 00.00W";
     }
+
+    // @Override
+    public void playGame() {
+        System.out.println("overriding and playing game");
+    }
     
     @Override
     public void call(String number) {

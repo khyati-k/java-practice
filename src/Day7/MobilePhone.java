@@ -9,11 +9,12 @@ public class MobilePhone extends OldPhone {
         System.out.println("ringing alarm" + s);
     }
 
+    //A subclass does not inherit the private members of its parent class. 
     private void playGame(String s) {
         System.out.println("playin game" + s);
     }
 
     public void printLastNumbers() {
-        System.out.println(lastTenNumbers);
+        System.out.println(lastTenNumbers.toString());
     }
 }
